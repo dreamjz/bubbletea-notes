@@ -2,16 +2,18 @@ package main
 
 import (
 	"fmt"
-	tea "github.com/charmbracelet/bubbletea"
 	"os"
+
+	tea "github.com/charmbracelet/bubbletea"
 )
 
 type model struct {
-	choices  []string
-	cursor   int
-	selected map[int]struct{}
+	choices  []string         // items on the to-do list
+	cursor   int              // which to-do list item our cursor is pointing at
+	selected map[int]struct{} // which to-do items are selected
 }
 
+// initialModel initiate the application model
 func initialModel() model {
 	return model{
 		choices:  []string{"Buy carrots", "Buy celery", "Buy kohlrabi"},
@@ -19,10 +21,15 @@ func initialModel() model {
 	}
 }
 
+// Init can return a Cmd that could perform some initial I/O
+// we don't need to do any I/O, so just return nil
 func (m model) Init() tea.Cmd {
 	return nil
 }
 
+// Update is called when "things happen".
+// Its job is to look at what happened and return an updated
+// model in response. It can also return a Cmd to make more things happen.
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
 	case tea.KeyMsg:
@@ -50,6 +57,7 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	return m, nil
 }
 
+// View is used to render UI
 func (m model) View() string {
 	s := "What should we buy at the market?\n\n"
 
