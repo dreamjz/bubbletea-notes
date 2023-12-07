@@ -2,17 +2,20 @@ package main
 
 import (
 	"fmt"
-	tea "github.com/charmbracelet/bubbletea"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/charmbracelet/bubbles/spinner"
+	tea "github.com/charmbracelet/bubbletea"
 )
 
 const url = "https://charm.sh/"
 
 type model struct {
-	status int
-	err    error
+	spinner spinner.Model
+	status  int
+	err     error
 }
 
 type statusMsg int
@@ -28,7 +31,6 @@ func (e errMsg) Error() string {
 func checkServer() tea.Msg {
 	c := &http.Client{Timeout: 10 * time.Second}
 	res, err := c.Get(url)
-
 	if err != nil {
 		return errMsg{err}
 	}
@@ -37,10 +39,11 @@ func checkServer() tea.Msg {
 }
 
 func (m model) Init() tea.Cmd {
-	return checkServer
+	return tea.Batch(checkServer, m.spinner.Tick)
 }
 
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
+	var cmd tea.Cmd
 	switch msg := msg.(type) {
 	case statusMsg:
 		m.status = int(msg)
@@ -52,9 +55,11 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		if msg.Type == tea.KeyCtrlC {
 			return m, tea.Quit
 		}
+	case spinner.TickMsg:
+		m.spinner, cmd = m.spinner.Update(msg)
 	}
 
-	return m, nil
+	return m, cmd
 }
 
 func (m model) View() string {
@@ -62,7 +67,7 @@ func (m model) View() string {
 		return fmt.Sprintf("\nWe had some trouble: %v\n\n", m.err)
 	}
 
-	s := fmt.Sprintf("Checking %s ...\n", url)
+	s := fmt.Sprintf("Checking %s ...%s\n", url, m.spinner.View())
 
 	if m.status > 0 {
 		s += fmt.Sprintf("%d %s!", m.status, http.StatusText(m.status))
@@ -72,7 +77,11 @@ func (m model) View() string {
 }
 
 func main() {
-	if _, err := tea.NewProgram(model{}).Run(); err != nil {
+	m := model{
+		spinner: spinner.New(),
+	}
+
+	if _, err := tea.NewProgram(m).Run(); err != nil {
 		fmt.Printf("Uh oh, there was an error: %v\n", err)
 		os.Exit(1)
 	}
