@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/charmbracelet/bubbles v0.18.0
-	github.com/charmbracelet/bubbletea v0.26.1
+	github.com/charmbracelet/bubbletea v0.26.2
 	github.com/charmbracelet/glamour v0.7.0
 	github.com/charmbracelet/harmonica v0.2.0
 	github.com/charmbracelet/lipgloss v0.10.0
@@ -15,7 +15,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20
 	github.com/muesli/reflow v0.3.0
 	github.com/muesli/termenv v0.15.2
-	golang.org/x/term v0.19.0
+	golang.org/x/term v0.20.0
 )
 
 require (
@@ -45,6 +45,6 @@ require (
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/sys v0.19.0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 )
