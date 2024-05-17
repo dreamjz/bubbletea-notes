@@ -49,6 +49,8 @@ github.com/charmbracelet/x/exp/teatest v0.0.0-20240503143715-36ea203beff4 h1:Qve
 github.com/charmbracelet/x/exp/teatest v0.0.0-20240503143715-36ea203beff4/go.mod h1:5xgCDfannafXBN97CzCDp2NnuIMO+65drTq6H3LGM8s=
 github.com/charmbracelet/x/exp/teatest v0.0.0-20240510181320-e66de7a51531 h1:pQEGm2biIw1EygoP5tEufXuykUqZrcqOtQLJ25AO870=
 github.com/charmbracelet/x/exp/teatest v0.0.0-20240510181320-e66de7a51531/go.mod h1:hj+TFTT7V4sVYggNy1SkYXgE2ZWscgeteB8FqgqCmWk=
+github.com/charmbracelet/x/exp/teatest v0.0.0-20240517183709-47cd60ea8d59 h1:iv7fV8RT6yNHmtVQwQhmG18JIDy2VuCu2N01Lr6kJSQ=
+github.com/charmbracelet/x/exp/teatest v0.0.0-20240517183709-47cd60ea8d59/go.mod h1:hj+TFTT7V4sVYggNy1SkYXgE2ZWscgeteB8FqgqCmWk=
 github.com/containerd/console v1.0.4-0.20230313162750-1ae8d489ac81 h1:q2hJAaP1k2wIvVRd/hEHD7lacgqrCPS+k8g1MndzfWY=
 github.com/containerd/console v1.0.4-0.20230313162750-1ae8d489ac81/go.mod h1:YynlIjWYF8myEu6sdkwKIvGQq+cOckRm6So2avqoYAk=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
