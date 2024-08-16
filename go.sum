@@ -37,6 +37,8 @@ github.com/charmbracelet/bubbletea v0.26.5 h1:90pqTPElAReb/qQUgSMUresTkfwVr0Wx+z
 github.com/charmbracelet/bubbletea v0.26.5/go.mod h1:dz8CWPlfCCGLFbBlTY4N7bjLiyOGDJEnd2Muu7pOWhk=
 github.com/charmbracelet/bubbletea v0.26.6 h1:zTCWSuST+3yZYZnVSvbXwKOPRSNZceVeqpzOLN2zq1s=
 github.com/charmbracelet/bubbletea v0.26.6/go.mod h1:dz8CWPlfCCGLFbBlTY4N7bjLiyOGDJEnd2Muu7pOWhk=
+github.com/charmbracelet/bubbletea v0.27.0 h1:Mznj+vvYuYagD9Pn2mY7fuelGvP0HAXtZYGgRBCbHvU=
+github.com/charmbracelet/bubbletea v0.27.0/go.mod h1:5MdP9XH6MbQkgGhnlxUqCNmBXf9I74KRQ8HIidRxV1Y=
 github.com/charmbracelet/glamour v0.6.0 h1:wi8fse3Y7nfcabbbDuwolqTqMQPMnVPeZhDM273bISc=
 github.com/charmbracelet/glamour v0.6.0/go.mod h1:taqWV4swIMMbWALc0m7AfE9JkPSU8om2538k9ITBxOc=
 github.com/charmbracelet/glamour v0.7.0 h1:2BtKGZ4iVJCDfMF229EzbeR1QRKLWztO9dMtjmqZSng=
