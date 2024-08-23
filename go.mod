@@ -4,10 +4,10 @@ go 1.21
 
 require (
 	github.com/charmbracelet/bubbles v0.18.0
-	github.com/charmbracelet/bubbletea v0.27.0
+	github.com/charmbracelet/bubbletea v0.27.1
 	github.com/charmbracelet/glamour v0.8.0
 	github.com/charmbracelet/harmonica v0.2.0
-	github.com/charmbracelet/lipgloss v0.12.1
+	github.com/charmbracelet/lipgloss v0.13.0
 	github.com/charmbracelet/log v0.4.0
 	github.com/charmbracelet/x/exp/teatest v0.0.0-20240816142345-245c57877dad
 	github.com/fogleman/ease v0.0.0-20170301025033-8da417bf1776
@@ -26,7 +26,7 @@ require (
 	github.com/aymanbagabas/go-udiff v0.2.0 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/charmbracelet/x/ansi v0.1.4 // indirect
-	github.com/charmbracelet/x/exp/golden v0.0.0-20240715153702-9ba8adf781c4 // indirect
+	github.com/charmbracelet/x/exp/golden v0.0.0-20240806155701-69247e0abc2a // indirect
 	github.com/charmbracelet/x/input v0.1.0 // indirect
 	github.com/charmbracelet/x/term v0.1.1 // indirect
 	github.com/charmbracelet/x/windows v0.1.0 // indirect
