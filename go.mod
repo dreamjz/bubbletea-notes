@@ -9,7 +9,7 @@ require (
 	github.com/charmbracelet/harmonica v0.2.0
 	github.com/charmbracelet/lipgloss v0.13.0
 	github.com/charmbracelet/log v0.4.0
-	github.com/charmbracelet/x/exp/teatest v0.0.0-20240919170804-a4978c8e603a
+	github.com/charmbracelet/x/exp/teatest v0.0.0-20241004173542-8f764644629a
 	github.com/fogleman/ease v0.0.0-20170301025033-8da417bf1776
 	github.com/lucasb-eyer/go-colorful v1.2.0
 	github.com/mattn/go-isatty v0.0.20
@@ -50,6 +50,6 @@ require (
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
 	golang.org/x/net v0.27.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/sys v0.25.0 // indirect
-	golang.org/x/text v0.17.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
+	golang.org/x/text v0.19.0 // indirect
 )
