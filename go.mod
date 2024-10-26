@@ -7,7 +7,7 @@ require (
 	github.com/charmbracelet/bubbletea v1.1.2
 	github.com/charmbracelet/glamour v0.8.0
 	github.com/charmbracelet/harmonica v0.2.0
-	github.com/charmbracelet/lipgloss v0.13.0
+	github.com/charmbracelet/lipgloss v0.13.1
 	github.com/charmbracelet/log v0.4.0
 	github.com/charmbracelet/x/exp/teatest v0.0.0-20241025155609-902b1d1de0be
 	github.com/fogleman/ease v0.0.0-20170301025033-8da417bf1776
