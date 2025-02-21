@@ -14,7 +14,7 @@ require (
 	github.com/lucasb-eyer/go-colorful v1.2.0
 	github.com/mattn/go-isatty v0.0.20
 	github.com/muesli/reflow v0.3.0
-	github.com/muesli/termenv v0.15.3-0.20241212154518-8c990cd6cf4b
+	github.com/muesli/termenv v0.16.0
 	golang.org/x/term v0.29.0
 )
 
