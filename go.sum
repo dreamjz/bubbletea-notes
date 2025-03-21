@@ -221,6 +221,8 @@ github.com/charmbracelet/x/exp/teatest v0.0.0-20250303111204-ce812b082f54 h1:VjF
 github.com/charmbracelet/x/exp/teatest v0.0.0-20250303111204-ce812b082f54/go.mod h1:ag+SpTUkiN/UuUGYPX3Ci4fR1oF3XX97PpGhiXK7i6U=
 github.com/charmbracelet/x/exp/teatest v0.0.0-20250313150240-c09addb0e197 h1:srqptb2B5Lc27HKz10TPNaJfQj390A4PzGKyhfVRtjQ=
 github.com/charmbracelet/x/exp/teatest v0.0.0-20250313150240-c09addb0e197/go.mod h1:ag+SpTUkiN/UuUGYPX3Ci4fR1oF3XX97PpGhiXK7i6U=
+github.com/charmbracelet/x/exp/teatest v0.0.0-20250317102001-c803e5cafd0b h1:stRYpFhKYr6u2DrdyXHabpXQdRbNs8REQ4RB/Kc22t0=
+github.com/charmbracelet/x/exp/teatest v0.0.0-20250317102001-c803e5cafd0b/go.mod h1:ag+SpTUkiN/UuUGYPX3Ci4fR1oF3XX97PpGhiXK7i6U=
 github.com/charmbracelet/x/input v0.1.0 h1:TEsGSfZYQyOtp+STIjyBq6tpRaorH0qpwZUj8DavAhQ=
 github.com/charmbracelet/x/input v0.1.0/go.mod h1:ZZwaBxPF7IG8gWWzPUVqHEtWhc1+HXJPNuerJGRGZ28=
 github.com/charmbracelet/x/term v0.1.1 h1:3cosVAiPOig+EV4X9U+3LDgtwwAoEzJjNdwbXDjF6yI=
