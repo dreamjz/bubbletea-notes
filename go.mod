@@ -11,7 +11,7 @@ require (
 	github.com/charmbracelet/harmonica v0.2.0
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/charmbracelet/log v0.4.1
-	github.com/charmbracelet/x/exp/teatest v0.0.0-20250327172914-2fdc97757edf
+	github.com/charmbracelet/x/exp/teatest v0.0.0-20250331185309-2c96f2c3a435
 	github.com/fogleman/ease v0.0.0-20170301025033-8da417bf1776
 	github.com/lucasb-eyer/go-colorful v1.2.0
 	github.com/mattn/go-isatty v0.0.20
