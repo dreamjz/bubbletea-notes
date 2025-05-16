@@ -12,7 +12,7 @@ require (
 	github.com/charmbracelet/lipgloss v1.1.1-0.20250404203927-76690c660834
 	github.com/charmbracelet/lipgloss/v2 v2.0.0-beta.1
 	github.com/charmbracelet/log v0.4.1
-	github.com/charmbracelet/x/exp/teatest v0.0.0-20250509021451-13796e822d86
+	github.com/charmbracelet/x/exp/teatest v0.0.0-20250516160309-24eee56f89fa
 	github.com/fogleman/ease v0.0.0-20170301025033-8da417bf1776
 	github.com/lucasb-eyer/go-colorful v1.2.0
 	github.com/mattn/go-isatty v0.0.20
