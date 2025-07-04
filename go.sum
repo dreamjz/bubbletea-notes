@@ -277,6 +277,8 @@ github.com/charmbracelet/x/exp/teatest v0.0.0-20250616121729-19b66ab4499b h1:L6C
 github.com/charmbracelet/x/exp/teatest v0.0.0-20250616121729-19b66ab4499b/go.mod h1:MhV4atqUTcHvdaA7Qbkgb0Tvvr+BrH6IW7/i2XW39R8=
 github.com/charmbracelet/x/exp/teatest v0.0.0-20250627134340-c144409e381c h1:C5BN3y74X19LzK12LR5BUsEC/Vmd0Q2EwpnggWE7y+o=
 github.com/charmbracelet/x/exp/teatest v0.0.0-20250627134340-c144409e381c/go.mod h1:MhV4atqUTcHvdaA7Qbkgb0Tvvr+BrH6IW7/i2XW39R8=
+github.com/charmbracelet/x/exp/teatest v0.0.0-20250702191427-5bdfc8f2e4ff h1:DKxPeQDSnQPDxD27Bq8nUDwiSecy2Yf+nT3U/TlPXs8=
+github.com/charmbracelet/x/exp/teatest v0.0.0-20250702191427-5bdfc8f2e4ff/go.mod h1:RXbDhep1qKL/SEz2IuOhOUrsNHDKGqRmGks1nZStKyU=
 github.com/charmbracelet/x/input v0.1.0 h1:TEsGSfZYQyOtp+STIjyBq6tpRaorH0qpwZUj8DavAhQ=
 github.com/charmbracelet/x/input v0.1.0/go.mod h1:ZZwaBxPF7IG8gWWzPUVqHEtWhc1+HXJPNuerJGRGZ28=
 github.com/charmbracelet/x/term v0.1.1 h1:3cosVAiPOig+EV4X9U+3LDgtwwAoEzJjNdwbXDjF6yI=
