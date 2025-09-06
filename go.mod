@@ -2,7 +2,7 @@ module bubbletea-note
 
 go 1.23.0
 
-toolchain go1.25.0
+toolchain go1.25.1
 
 require (
 	github.com/charmbracelet/bubbles v0.21.0
