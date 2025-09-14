@@ -18,7 +18,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20
 	github.com/muesli/reflow v0.3.0
 	github.com/muesli/termenv v0.16.0
-	golang.org/x/term v0.34.0
+	golang.org/x/term v0.35.0
 )
 
 require (
