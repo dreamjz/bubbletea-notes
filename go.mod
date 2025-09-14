@@ -14,7 +14,7 @@ require (
 	github.com/charmbracelet/log v0.4.2
 	github.com/charmbracelet/x/exp/teatest v0.0.0-20250911160549-0e720abcae8b
 	github.com/fogleman/ease v0.0.0-20170301025033-8da417bf1776
-	github.com/lucasb-eyer/go-colorful v1.2.0
+	github.com/lucasb-eyer/go-colorful v1.3.0
 	github.com/mattn/go-isatty v0.0.20
 	github.com/muesli/reflow v0.3.0
 	github.com/muesli/termenv v0.16.0
