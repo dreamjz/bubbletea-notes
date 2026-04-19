@@ -7,6 +7,7 @@
   "timezone": "Asia/Shanghai",
   "schedule": "every weekend",
 
-  "automerge": true
+  "automerge": true,
+  "enabled": false
   
 }
